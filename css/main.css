@@ -1,17 +1,114 @@
-h1 {
-	background-color: #cd5b34;
-	color: white;
-	text-align: center;
+html {
+	font-family: Merriweather, serif;
+	box-sizing: inherit;
 }
 
-h2 {
-	background-color: #d98156;
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1 {
 	color: white;
 	text-align: center;
+	padding-bottom: .5em;
+	margin: 0;
+}
+
+header {
+	background-color: #cd5b34;
+	padding-top: .5em;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	margin: .6em;
 }
 
 nav {
 	background-color: #cd5b34;
 	color: white;
 	padding: 0.5em;
+}
 
+.grains {
+	width: 31%;
+	float: left;
+}
+
+.cereals {
+	width: 31%;
+	float: right;
+	clear: left;
+}
+
+.quinoa {
+	width: 31%;
+	float: right;
+	clear: both;
+}
+
+.corn {
+	width: 100%;
+}
+
+.rice {
+	width: 31%;
+}
+
+.oats {
+	width: 31%;
+}
+
+.peanuts {
+	width: 31%;
+}
+
+.beans {
+	width: 31%;
+}
+
+.lentils {
+	width: 31%;
+}
+
+.p2 {
+	float: left;
+	clear: left;
+}
+
+.p1 {
+	float: left;
+}
+
+.grain-left {
+	width: 7%;
+	float: left;
+}
+
+.grain-right {
+	width: 7%;
+	float: right;
+}
+
+h2 {
+	color: white;
+	background-color: #d98156;
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+	clear: both;
+}
+
+nav li {
+	display: inline-block;
+	width: 33.3%;
+	padding: .5em;
+	text-align: center;
+}
+
+nav ol {
+	overflow: hidden;
+}
