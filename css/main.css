@@ -17,6 +17,7 @@ h1 {
 header {
 	background-color: #cd5b34;
 	padding-top: .5em;
+	overflow: hidden;
 }
 
 body {
@@ -30,12 +31,13 @@ main {
 nav {
 	background-color: #cd5b34;
 	color: white;
-	padding: 0.5em;
 }
 
 .grains {
 	width: 31%;
 	float: left;
+	clear: left;
+	margin-right: 10px;
 }
 
 .cereals {
@@ -75,12 +77,11 @@ nav {
 }
 
 .p2 {
-	float: left;
 	clear: left;
 }
 
 .p1 {
-	float: left;
+
 }
 
 .grain-left {
@@ -104,11 +105,23 @@ h2 {
 
 nav li {
 	display: inline-block;
-	width: 33.3%;
+	width: 31%;
 	padding: .5em;
 	text-align: center;
+	border: 1px solid #a43f39;
+	float: left;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
 
 nav ol {
 	overflow: hidden;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+
 }
