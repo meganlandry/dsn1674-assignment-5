@@ -53,30 +53,71 @@ nav {
 }
 
 .corn {
-	width: 100%;
+	  width: 100%;
+  background-color: #d98156;
+  margin: 0;
 }
 
 .rice {
-	width: 31%;
+	width: 50%;
+	float: left;
+	margin: 0;
 }
-
+.rice img {
+	  width: 100%;
+  background-color: #d98156;
+  margin: 0;
+}
+.rice figcaption {
+	text-align: center;
+	margin: -5px 0 0 0;
+}
+.oats figcaption {
+	text-align: center;
+	margin: -5px 0 0 0;
+}
+.oats img{
+width: 100%;
+  background-color: #d98156;
+  margin: 0;
+}
 .oats {
-	width: 31%;
+	width: 50%;
+	float: right;
+	margin: 0;
 }
 
 .peanuts {
-	width: 31%;
-	float: left;
+	  width: 20%;
+  margin:0;
+  float: left;
+  clear: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .beans {
-	width: 31%;
-	float: left;
+	  width: 20%;
+  margin:0;
+  float: left;
+  clear: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .lentils {
-	width: 31%;
-	float: left;
+	  width: 20%;
+  margin:0;
+  float: left;
+  clear: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .p2 {
@@ -101,10 +142,12 @@ h2 {
 	color: white;
 	background-color: #d98156;
 	text-align: center;
-	padding: 1em;
-	clear: both;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	margin: 0;
 	overflow: hidden;
-	box-sizing: inherit;
+	display: block;
+	clear: both;
 }
 
 h3 {
@@ -149,4 +192,24 @@ footer {
 	background-color: #cd5b34;
 	padding-top: .5em;
 	overflow: hidden;
+	float: top;
+}
+
+div{
+  background-color: #d98156;
+  border: none;
+  overflow: hidden;
+
+
+.cf{
+  background-color: #d98156;
+  color:white;
+  text-align: center;
+  clear: both;
+  float: none;
+  font-family: 'Lato', sans-serif;
+}
+
+c {
+
 }
