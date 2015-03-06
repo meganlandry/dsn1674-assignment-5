@@ -125,3 +125,10 @@ nav ol {
 	padding: 0;
 
 }
+
+figcaption {
+	color: white;
+	background-color: #cd5b34;
+	padding-top: .5em;
+	overflow: hidden;
+}
