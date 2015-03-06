@@ -66,14 +66,17 @@ nav {
 
 .peanuts {
 	width: 31%;
+	float: left;
 }
 
 .beans {
 	width: 31%;
+	float: left;
 }
 
 .lentils {
 	width: 31%;
+	float: left;
 }
 
 .p2 {
@@ -99,13 +102,18 @@ h2 {
 	background-color: #d98156;
 	text-align: center;
 	padding: 1em;
-	margin: 0;
 	clear: both;
+	overflow: hidden;
+	box-sizing: inherit;
+}
+
+h3 {
+	text-align: center;
 }
 
 nav li {
 	display: inline-block;
-	width: 31%;
+	width: 30%;
 	padding: .5em;
 	text-align: center;
 	border: 1px solid #a43f39;
@@ -128,6 +136,16 @@ nav ol {
 
 figcaption {
 	color: white;
+	background-color: #cd5b34;
+	padding-top: .5em;
+	overflow: hidden;
+}
+
+footer {
+	color: #e6ad88;
+	text-align: center;
+	padding-bottom: .5em;
+	margin: 0;
 	background-color: #cd5b34;
 	padding-top: .5em;
 	overflow: hidden;
